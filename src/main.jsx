@@ -2,7 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import ErrorPage from "./error-page"
 import Contact from "./routes/contact";
-import Root, { loader as rootLoader } from "./routes/root";
+import Root, { Loader as rootLoader } from "./routes/root";
 import {
   createBrowserRouter,
   RouterProvider,
